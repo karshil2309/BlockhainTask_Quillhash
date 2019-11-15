@@ -11,7 +11,7 @@ In the mean time by clicking on the button isGameFinish and win we can know the 
 If there is winner then the hashcode will change to certain value otherwise it will be 000000.
 Also for simplicity you can change the user interface of Tic Tac Toe in the html,css on the front-side.
 
-#Screenshots
+# Screenshots
 
 1) Code of Implementing. --->
 

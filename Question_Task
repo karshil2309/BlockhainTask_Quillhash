@@ -1,0 +1,61 @@
+Ans 1)
+
+Solidity is a programming language for block chain which have the same functionalities as javascript and C . It lets you program on the Ethereum, a virtual machine that is responsible for creation of smart contracts and its deployment, without any third party integration.
+
+Also it has variables, functions and data types just as in other programming languages. It also has global variables, conditional statements, exception handling, and events for listeners. So basically I feel that doing programming in other languages and deploying on server is same as doing in solidity. Many versions of compiler are there and also online simulator other than javascript is also available, like Web3.js. I write “pragma solidity ^0.4.19; ”. It also provides integration with atom ide, visual studio so the code can be written here with the ease for developers.
+
+There is a very huge risk and more number of errors in Solidity code and one has to be careful during the test. The code is written in .sol file. I liked working with solidity and its a cool language. I used Remix Ide to write solidity code.
+
+Ans 2) 
+
+A bug bounty for smart contracts bug bounty is not that different from a typical bug bounty for a web application. Basically, a smart contract is an application that runs on blockchain. Every application has vulnerabilities, and smart contracts are no exception.
+A bug is a thing which weakens the  security of the system. Leading to intruding of a person. Bugs are now the most easy ways for hacker to get in. Leading to the damage of software and system Here are 4 steps to start Solidity bug hunting:
+Study Blockchain
+Solidity Programming
+Master Solidity Security
+Sandbox to test.
+
+Bugs related to Solidity programming are given in the official document. Description of the link is below :- https://solidity.readthedocs.io/en/v0.5.3/bugs.html.
+
+Some of the attacks which are know are as :-
+
+Reentrancy
+Transaction Order Dependence
+Timestamp Dependence
+Integer overflow and Underflow
+Dos with Block Gas Limit
+
+
+
+
+Ans 3)  & 4)
+
+The Different types of Consensus Algorithm are :- 
+Proof of Work (PoW)
+Proof of Stake ( PoS)
+Proof of Authority (PoA)
+Proof of Importance (PoI)
+
+consensus is defined as a general agreement of a state that the blockchain is in.
+So the consensus algorithm sees that every transaction is clean and no malicious transactions are done. 
+Also these algorithms are not proven mathematically but they are working without failure in blockchain. 
+
+Proof of Work- 
+PoW is conducted through miners (the people keeping the blockchain running by providing a huge amount of computing resources) competing to solve a cryptographic problem — also known as a hash puzzle. These miners help to verify every Bitcoin transaction, where it involves producing a hash-based (SHA256) PoW that is based off previous transaction blocks (read up on the Merkle Tree for more information) and forms a new branch with a new transaction block. This means that the work is moderately difficult for the miners to perform but easy for the network to verify. The first miner who manages to produce the PoW will be then awarded some Bitcoins. Over time, the amount of Bitcoin awarded decreases over time. Over the years, as the difficulty level in mining Bitcoin has increased tremendously, resulting in PoW being notorious for the amount of energy it requires to keep the blockchain running.
+
+Proof of Stake (Pos)
+
+Not at all like PoW where new exchange squares are made dependent on computational work done by illuminating a complex cryptographic puzzle.
+Moreover, for most PoS frameworks, rather than accepting a cryptographic money remunerate the falsifiers rather takes the exchange expenses as remunerations.
+
+The idea of putting coins to be ‘staked’ prevents bad actors from making fraudulent validations — upon false validation of transactions, the amount staked will be forfeited. Hence, this incentivises forgers to validate legitimately.
+
+In the recent year, PoS has gained attention, with Ethereum switching towards a PoS from a PoW consensus system.
+
+Proof of Authority
+
+It similar to PoS and DPos where a group of selected authorities secure a blockchain and are able to produce new blocks. Due to the fact that PoA’s trust system is predetermined, concerns has been raised that there might be a centralised element with this consensus algorithm. However, it can be argued that semi-centralisation could actually be appropriate within private/consortium blockchains — in exchange for better scalability.
+Newer blockchain startups has ventured into implementing PoA. In addition, Ethereum testnets like Rinkeby and Kovan explores the use of a PoA consensus algorithm.
+
+
+
